@@ -2,16 +2,16 @@ import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
 
-/*
+
 let isinpakistan = false;
 if (isinpakistan) {
      console.log("Hello Bilal");
 }else{
     console.log("Hello David");
 
-}*/
+}
 
-/*
+
 const percentage = prompt("Enter your Marks Number");
 if (percentage >= 90){
     console.log("Grade A+");
@@ -27,20 +27,20 @@ if (percentage >= 90){
     console.log("Fail");
 } 
 
-*/
 
-/*let percentage = prompt("Enter your Marks Number");
+
+let percentage = prompt("Enter your Marks Number");
 const result = percentage >= 50 ? "Passed" : "Failed"
-console.log(result);*/
+console.log(result);
 
-//let inInpakistan = prompt("Are You in Pakistan?");
-//const greeting = inInpakistan === "true" ? "Hello Umar Amin" : "Hello Shahid";
-//console.log(greeting);
+let inInpakistan = prompt("Are You in Pakistan?");
+const greeting = inInpakistan === "true" ? "Hello Umar Amin" : "Hello Shahid";
+console.log(greeting);
 
 
 
-////switch function
-/*let location = prompt("Where are you?");
+//switch function
+let location = prompt("Where are you?");
 switch(location){
     case "America":
 console.log("Hello Alaxandar");
@@ -56,4 +56,4 @@ case "Macendonia":
         break;
     default:
         console.log("Idhar gand marwany aya ha");
-    }*/
+    
