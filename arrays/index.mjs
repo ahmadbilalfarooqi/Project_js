@@ -31,9 +31,9 @@ console.log(daysOfWeek);
 
 daysOfWeek.push("1");
 daysOfWeek.push("Sunday");
-//daysOfWeek.push("Monday");
+daysOfWeek.push("Monday");
 daysOfWeek.push("Tuesday");
-//daysOfWeek.push("Monday");
+daysOfWeek.push("Monday");
 
 daysOfWeek.splice(1,0,"Monday");
 console.log(daysOfWeek);
