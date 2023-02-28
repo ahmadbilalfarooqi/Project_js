@@ -5,22 +5,22 @@ const arrays3 = [arrays1,arrays2];
 console.log(arrays3);
 console.log(arrays1[3] , arrays2[2]);  
 
-const numarrays = ['a','b','f','m','d','e','e','g',]
+const numarrays = ['a','b','f','m','d','e','e','c','g',]
 const newvalue = numarrays.sort();
 
 console.log(newvalue);
 
-umarrays.reverse();
+numarrays.reverse();
 console.log(numarrays);
 
 
 
 
 var ClassDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Saturday"];
-console.log(ClassDays);
+console.log(`"these following days is consider as a week "+ClassDays`);
 
 let findvalue = ClassDays.find(e => e === "Thrusday");
-let findvalue2 = ClassDays.find(e => e === "Sunday");
+let findvalue2 = ClassDays.find(e => e === "Tuesday");
 
 console.log(findvalue);
 console.log(findvalue2);
@@ -50,3 +50,6 @@ console.log(allDays);
 
 allDays.splice(3,3);
 console.log(allDays);
+
+
+export{}
